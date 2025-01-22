@@ -8,23 +8,23 @@ proxy-groups:
   use:
   - GIT
   url: http://www.gstatic.com/generate_204
-  interval: '120'
+  interval: 1
 - name: BESTPING
   type: url-test
   disable-udp: false
   use:
   - GIT
   url: http://www.gstatic.com/generate_204
-  interval: '300'
+  interval: 1
 proxy-providers:
   GIT:
     type: http
-    url: ""
+    url: "https://raw.githubusercontent.com/dnkd-id/A/refs/heads/main/akun"
     path: "./proxy_provider/AKUN-GIT.yaml"
-    interval: 300
+    interval: 1
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
-      interval: 300
+      interval: 1
 rules:
   - MATCH,GLOBAL
