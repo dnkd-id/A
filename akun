@@ -1,0 +1,14 @@
+proxies:
+  - name: Vivo V27e
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 3d0e2107-1e0a-4d98-accc-0cb107f33cf6
+    skip-cert-verify: true
+    sni: anuy.bza.web.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: anuy.bza.web.id
+    udp: true
