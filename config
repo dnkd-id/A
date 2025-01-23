@@ -19,7 +19,7 @@ proxy-groups:
 proxy-providers:
   GIT:
     type: http
-    url: "https://raw.githubusercontent.com/dnkd-id/A/refs/heads/main/akun"
+    url: "https://raw.githubusercontent.com/dnkd-id/A/refs/heads/main/akun2"
     path: "./proxy_provider/AKUN-GIT.yaml"
     interval: 1
     health-check:
